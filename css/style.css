@@ -40,7 +40,7 @@ a{
 .display-flex{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .f.size{
@@ -55,8 +55,23 @@ a{
     padding: 15px 20px;
 
 }
+.p-left-0{
+    padding-left: 0;
+}
+.p-right-0{
+    padding-right: 0;
+}
+.p-left{
+    padding-left: 10px;
+}
+.p-right{
+    padding-right:10px;
+}
 .p-left-right{
     padding: 0 10px 0 10px;
+}
+.debug{
+    border: 1px solid black;
 }
 /* /Utility */
 
@@ -89,6 +104,15 @@ a{
     width:120px;
 }
 /* /Start navbar header */
+
+/* Start section card main*/
+.box{
+    width:calc(100% / 3);
+}
+.card{
+    width: 100%;
+}
+/* Start section card main*/
 
 
 
