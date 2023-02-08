@@ -51,6 +51,7 @@ a{
     color: var(--primary-bg);
 }
 
+/* class padding */
 .p-15-20{
     padding: 15px 20px;
 
@@ -70,22 +71,27 @@ a{
 .p-left-right{
     padding: 0 10px 0 10px;
 }
+
+.p-top{
+    padding-top: 100px;
+}
+
+/* /class padding */
 .debug{
     border: 1px solid black;
 }
 /* /Utility */
 
-/* selector :hover */
+/* selector :hover navbar */
 .icon-f:hover, .name-section:hover{
     color: var(--footer-bg) ;
 }
 
-/* /selector :hover */
+/* /selector :hover navbar */
 
 
 /* Start navbar header */
 .nav{
-    padding-top: 20px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -106,13 +112,32 @@ a{
 /* /Start navbar header */
 
 /* Start section card main*/
+.position-r{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
 .box{
     width:calc(100% / 3);
 }
 .card{
     width: 100%;
 }
-/* Start section card main*/
+
+.card-size{
+    width: 100%;
+}
+.d-col{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+/* /Start section card main*/
 
 
 
