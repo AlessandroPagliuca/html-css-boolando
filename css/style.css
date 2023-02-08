@@ -1,0 +1,94 @@
+/* /General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+:root{
+    --primary-bg: #ffffff;
+    --card-bg: #eeeeee;
+    --nav-bg: #ff6900;
+    --footer-bg: #1a1a1a;
+    --color-red: #ff0000;
+    --color-green: #008000;
+    --text-card: #0000;
+
+}
+body{
+    background-color: var(--primary-bg);
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.u-line:hover{
+    text-decoration: underline;
+}
+/* /General */
+
+/* Utility */
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.display-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.f.size{
+    font-size:1rem ;
+}
+
+.icon-f, .text-nav{
+    color: var(--primary-bg);
+}
+
+.p-15-20{
+    padding: 15px 20px;
+
+}
+.p-left-right{
+    padding: 0 10px 0 10px;
+}
+/* /Utility */
+
+/* selector :hover */
+.icon-f:hover, .name-section:hover{
+    color: var(--footer-bg) ;
+}
+
+/* /selector :hover */
+
+
+/* Start navbar header */
+.nav{
+    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+   
+}
+
+.nav-bg{
+    background-color: var(--nav-bg);
+   
+}
+
+.nav-logo{
+
+    width:120px;
+}
+/* /Start navbar header */
+
+
+
