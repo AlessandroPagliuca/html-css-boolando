@@ -15,6 +15,7 @@
     --color-red: #ff0000;
     --color-green: #008000;
     --text-card: #0000;
+    --grey: #c3c3c3;
 
 }
 body{
@@ -81,7 +82,7 @@ a{
 
 /* selector :hover navbar */
 .icon-f:hover, .name-section:hover{
-    color: var(--footer-bg) ;
+    color: var(--grey) ;
 }
 
 /* /selector :hover navbar */
