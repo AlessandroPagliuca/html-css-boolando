@@ -12,8 +12,8 @@
 <body>
     <header>
         <!--Start navbar -->
-        <div class="nav nav-bg">
-            <nav class="container display-flex  p-15-20">
+        <nav class="nav nav-bg">
+            <div class="container display-flex  p-15-20">
                 <ul class=" display-flex">
                     <li>
                         <a class="name-section p-left-0 p-right text-nav u-line " href="#">Donna</a>
@@ -47,8 +47,8 @@
                         </a>
                     </li>
                 </ul>
-            </nav>    
-        </div>
+            </div>    
+        </nav>
         <!-- /navbar -->
     </header>
     <main>
@@ -56,7 +56,7 @@
         <div class="p-top container display-flex">
             <div class=" box debug p-15-20 d-col">
                 <div class="position-r cursor-p">
-                    <img class="card" src="./img/1.webp" alt="">
+                        <img src="./img/1.webp" alt="" class="card" >
                     <div class=" position-a-bot">
                         <span class="promo">50%</span>
                         <span class="eco-friendly"> Sostenibile</span>
@@ -66,7 +66,10 @@
                 <div class="tex-card">
                     <p>Levi's</p>
                     <h4>RELAXED FIT TEE UNISEX</h4>
-                    <P><span>14,99$</span><span> 29,99$</span></P>
+                    <P>
+                        <span class="text-promo">14,99$</span>
+                        <span class="old-promo"> 29,99$</span>
+                    </P>
                 </div>
             </div>
             
@@ -124,6 +127,52 @@
         </div>
         <!-- /cards -->
     </main>
+    <footer>
+        <nav class=" nav-f-bg m-top">
+            <div class="container  p-15-20">
+                <div class="display-flex">
+                    <p>Boolando s.r.l</p>
+                    <p>Trovaci anche su</p>
+                </div> 
+                <div class="display-flex p-top-15">
+                    <ul class="display-flex f-size">
+                        <a class=" p-left-0 p-right text-nav u-line" href="">Informazioni legali</a>
+                        <a class="p-left-right text-nav u-line"  href="">Informazioni sulla privacy</a>
+                        <a class="p-left-right text-nav u-line"  href="">Diritto di recesso</a>
+                    </ul>
+                    <ul class="display-flex">
+                        <li class="p-left-right">
+                            <a href="">
+                                <i class="fa-brands fa-twitter icon-f"></i>
+                            </a>
+                        </li>
+                        <li class="p-left-right">
+                            <a href="">
+                                <i class="fa-brands fa-instagram icon-f"></i>
+                            </a>
+                        </li>
+                        <li class="p-left-right">
+                            <a href="">
+                                <i class="fa-brands fa-twitter icon-f"></i>
+                            </a>
+                        </li>
+                        <li class="p-left-right">
+                            <a href="">
+                                <i class="fa-brands fa-instagram icon-f"></i>
+                            </a>
+                        </li>
+                        <li class="p-left p-right-0">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f icon-f"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </footer>
     
 </body>
 </html>

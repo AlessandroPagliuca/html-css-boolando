@@ -152,15 +152,12 @@ right: 0;
 .box{
     width:calc(100% / 3);
 }
-.card{
+.card, .card-none{
     width: 100%;
     background-size: cover;
     background-position: center;
 }
 
-.card-size{
-    width: 100%;
-}
 .d-col{
     display: flex;
     flex-flow: column wrap;
@@ -174,14 +171,46 @@ right: 0;
 }
 
 /* Start setting text cards*/
+.text-promo{
+    color: var(--color-red);
+    font-weight: 600;
+}
 
+.old-promo{
+    text-decoration:line-through;
+}
 /* /setting text cards*/
 
 /* Start card :hover */
+.card-none{
+    
+    display: none;
+}
+
+.card:hover{
+    background-color: #008000;
+    display: block;
+}
+
 
 /* Start card :hover */
 
 /* /card main*/
 
+/* Start footer */
+.nav-f-bg{
+    background-color: var(--footer-bg);
+    color: var(--primary-bg);
+}
 
+.f-size{
+    font-size: 12px;
+}
+.p-top-15{
+    padding-top: 15px;
+}
+.m-top{
+    margin-top: 50px;
+}
+/* /footer */
 
