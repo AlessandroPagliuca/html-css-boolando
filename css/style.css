@@ -43,9 +43,6 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.f.size{
-    font-size:1rem ;
-}
 
 .icon-f, .text-nav{
     color: var(--primary-bg);
@@ -92,6 +89,7 @@ a{
 
 /* Start navbar header */
 .nav{
+    background-color: var(--nav-bg);
     width: 100%;
     position: fixed;
     top: 0;
@@ -100,13 +98,7 @@ a{
    
 }
 
-.nav-bg{
-    background-color: var(--nav-bg);
-   
-}
-
 .nav-logo{
-
     width:120px;
 }
 /* /Start navbar header */
@@ -118,7 +110,6 @@ a{
     position: relative;
     top: 0;
     left: 0;
-    z-index: 1;
 
 }
 .position-a-bot{
@@ -133,9 +124,9 @@ top: 15px;
 right: 0;
 }
 .promo, .eco-friendly{
-    padding: 1px 5px;
+    padding: 5px 20px;
     color: var(--primary-bg);
-    font-size: .8rem;
+    font-size: .9rem;
 }
 .eco-friendly{
     background-color: var(--color-green);
@@ -151,24 +142,37 @@ right: 0;
 /* Start class position:relative and position:absolute in card */
 .box{
     width:calc(100% / 3);
+    
 }
-.card, .card-none{
+
+
+.card{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  
+
+}
+.card img{
+    width: 100%;
+}
+
+.card  .card-none{
+
+    position: absolute;
+    display: none;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
-
-.d-col{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+.card:hover .card-none{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
 
 }
 
-.cursor-p{
-    cursor: pointer;
-}
 
 /* Start setting text cards*/
 .text-promo{
@@ -182,18 +186,9 @@ right: 0;
 /* /setting text cards*/
 
 /* Start card :hover */
-.card-none{
-    
-    display: none;
-}
-
-.card:hover{
-    background-color: #008000;
-    display: block;
-}
 
 
-/* Start card :hover */
+/* /card :hover */
 
 /* /card main*/
 
@@ -207,10 +202,11 @@ right: 0;
     font-size: 12px;
 }
 .p-top-15{
-    padding-top: 15px;
+    padding-top: 30px;
 }
 .m-top{
     margin-top: 50px;
 }
 /* /footer */
+
 
