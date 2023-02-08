@@ -173,6 +173,10 @@ right: 0;
 
 }
 
+.card:hover .hearts{
+    color: var(--color-red);
+}
+
 
 /* Start setting text cards*/
 .text-promo{
