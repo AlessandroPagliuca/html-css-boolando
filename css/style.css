@@ -111,20 +111,51 @@ a{
 }
 /* /Start navbar header */
 
-/* Start section card main*/
+/* Start card main*/
+
+/* Start class position:relative and position:absolute in card */
 .position-r{
-    width: 100%;
     position: relative;
     top: 0;
     left: 0;
     z-index: 1;
 
 }
+.position-a-bot{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.position-a-top{
+position: absolute;
+top: 15px;
+right: 0;
+}
+.promo, .eco-friendly{
+    padding: 1px 5px;
+    color: var(--primary-bg);
+    font-size: .8rem;
+}
+.eco-friendly{
+    background-color: var(--color-green);
+}
+.promo{
+    background-color: var(--color-red);
+
+}
+.hearts{
+    padding: 5px 12px;
+    background-color: var(--primary-bg);
+}
+/* Start class position:relative and position:absolute in card */
 .box{
     width:calc(100% / 3);
 }
 .card{
     width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .card-size{
@@ -137,7 +168,20 @@ a{
     align-items: flex-start;
 
 }
-/* /Start section card main*/
+
+.cursor-p{
+    cursor: pointer;
+}
+
+/* Start setting text cards*/
+
+/* /setting text cards*/
+
+/* Start card :hover */
+
+/* Start card :hover */
+
+/* /card main*/
 
 
 
