@@ -149,6 +149,9 @@ right: 0;
     background-color: var(--primary-bg);
 }
 /* Start class position:relative and position:absolute in card */
+.tex-card h4{
+    text-transform: uppercase;
+}
 .box{
     width:calc(100% / 3);
     
