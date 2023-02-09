@@ -185,7 +185,7 @@ right: 0;
 
 }
 
-.card:hover .hearts{
+.hearts:hover{
     color: var(--color-red);
 }
 
