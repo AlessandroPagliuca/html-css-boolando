@@ -41,6 +41,12 @@ a{
 .display-flex{
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
